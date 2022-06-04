@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "portfolio website using bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "bootstrap-v5",
+    "sass"
+  ],
+  "author": "Ashutosh Lohani",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.0.2"
+  }
+}

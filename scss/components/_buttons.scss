@@ -1,0 +1,36 @@
+.btn-rounded {
+  position: relative;
+  // padding: 0.9375rem 3.375rem 0.9375rem 1.25rem;
+  padding: 0.7rem 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  border: 0.1rem solid rgba($white, 0.6);
+  background-color: $white;
+
+  span {
+    margin-left: 0.5rem;
+  }
+
+  &:hover {
+    color: $white;
+    background-color: $secondary;
+    transition: 0.3s ease-in-out;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
+      rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
+      rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+}
+
+.btn-rounded-intro {
+  &:hover {
+    background-color: $black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  @extend .btn-rounded;
+}
